@@ -1,0 +1,25 @@
+{
+  "name": "largefiletransfer",
+  "displayName": "LargeFileTransfer",
+  "version": "0.1.0",
+  "description": "Send files and folders from your computer with LargeFileTransfer and get a share link back, without leaving Claude.",
+  "author": {
+    "name": "Curious Objects",
+    "email": "support@largefiletransfer.com",
+    "url": "https://largefiletransfer.com"
+  },
+  "homepage": "https://largefiletransfer.com",
+  "repository": "https://github.com/CuriousObjectsHQ/largefiletransfer-claude-plugin",
+  "keywords": ["file-transfer", "file-sharing", "upload", "share-link"],
+  "icon": "./icon.png",
+  "documentationUrl": "https://github.com/CuriousObjectsHQ/largefiletransfer-claude-plugin#readme",
+  "supportUrl": "https://largefiletransfer.com/support",
+  "privacyPolicyUrl": "https://largefiletransfer.com/legal/privacy",
+  "termsOfServiceUrl": "https://largefiletransfer.com/legal/terms",
+  "mcpServers": {
+    "largefiletransfer": {
+      "command": "npx",
+      "args": ["-y", "largefiletransfer-mcp@0.1.0"]
+    }
+  }
+}

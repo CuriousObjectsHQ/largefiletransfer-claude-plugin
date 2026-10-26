@@ -1,0 +1,15 @@
+{
+  "name": "largefiletransfer",
+  "description": "The LargeFileTransfer plugin for Claude.",
+  "owner": {
+    "name": "Curious Objects",
+    "email": "support@largefiletransfer.com"
+  },
+  "plugins": [
+    {
+      "name": "largefiletransfer",
+      "source": "./",
+      "description": "Send files and folders from your computer with LargeFileTransfer and get a share link back, without leaving Claude."
+    }
+  ]
+}
