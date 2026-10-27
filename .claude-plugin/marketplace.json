@@ -9,7 +9,7 @@
     {
       "name": "largefiletransfer",
       "source": "./",
-      "description": "Send files and folders from your computer with LargeFileTransfer and get a share link back, without leaving Claude."
+      "description": "Send files and folders from your computer with LargeFileTransfer and get a share link back, download transfers, and ask people for files, all from Claude."
     }
   ]
 }

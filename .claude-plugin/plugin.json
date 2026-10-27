@@ -1,8 +1,8 @@
 {
   "name": "largefiletransfer",
   "displayName": "LargeFileTransfer",
-  "version": "0.1.0",
-  "description": "Send files and folders from your computer with LargeFileTransfer and get a share link back, without leaving Claude.",
+  "version": "0.1.1",
+  "description": "Send files and folders from your computer with LargeFileTransfer and get a share link back, download transfers, and ask people for files, all from Claude.",
   "author": {
     "name": "Curious Objects",
     "email": "support@largefiletransfer.com",
@@ -19,7 +19,7 @@
   "mcpServers": {
     "largefiletransfer": {
       "command": "npx",
-      "args": ["-y", "largefiletransfer-mcp@0.1.0"]
+      "args": ["-y", "largefiletransfer-mcp@0.1.1"]
     }
   }
 }
